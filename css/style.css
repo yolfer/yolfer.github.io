@@ -126,7 +126,7 @@ p :hover {
   color: white;
   border: thin solid white;
   height: 40px;
-  width: 100px;
+  width: 110px;
   border-radius: 10px;
   transition: 0.5s;
 }
