@@ -5,7 +5,7 @@ function genQuote() {
   var tweetQuote = quotes[randNum].split(" ").join("%20");
   tweetQuote = tweetQuote.split("<br>").join("");
   tweetQuote =
-    "https://twitter.com/intent/tweet?text=Great 1:1 question: " + tweetQuote.split('"').join("") + ". From http://1on.one";
+    "https://twitter.com/intent/tweet?text=Great 1:1 question: " + tweetQuote.split('"').join("") + " (via http://1on.one)";
   $(".twitter-share-button").attr("href", tweetQuote);
 }
 
